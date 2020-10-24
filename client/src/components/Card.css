@@ -1,0 +1,33 @@
+.dixit-card {
+    width: 180px;
+    height: 250px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+    border: 2px solid black;
+}
+
+.scaled {
+    transform: scale(1.15);
+    margin-left: 35px !important;
+    margin-right: 15px;
+}
+
+.card-circle {
+    background-color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    right: 5px;
+    top: 5px;
+}
+
+.dixit-card:hover {
+    cursor: pointer;
+}

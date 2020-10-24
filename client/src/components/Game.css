@@ -1,0 +1,150 @@
+.game-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.users-section {
+    display: flex;
+    justify-content: center;
+}
+
+.users-section .user-card {
+    margin-left: 50px;
+}
+
+.users-section .user-card:first-child {
+    margin-left: 0;
+}
+
+.scores {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    color: chocolate;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 24px;
+    width: 100px;
+}
+
+.score:first-child {
+    margin-left: 0;
+}
+
+.select-card {
+    margin-top: 100px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cards-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cards-list .dixit-card {
+    margin-left: 20px;
+}
+
+.cards-list .dixit-card:first-child {
+    margin-left: 0 !important;
+}
+
+.storyteller-label {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .dixit-input {
+    width: 400px;
+}
+
+footer .green-btn {
+    margin-left: 50px;
+}
+
+.clue {
+    width: 244px;
+    height: 200px;
+    background-image: url('/images/clue.png');
+    background-size: contain;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clue-text {
+    text-align: center;
+    font-size: 24px;
+    margin-top: -50px;
+    width: 150px;
+}
+
+.cards-left {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 10px;
+    top: 50px;
+}
+
+.cards-left img {
+    width: 100px;
+}
+
+.cards-left div {
+    margin-left: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.finished {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.finished-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.finished .user-card {
+    transform: scale(2);
+    margin-top: 100px;
+}
+
+.finished .user-image {
+    margin-top: 5px;
+}
+
+.winner-text {
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.link-home {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
