@@ -1,1 +1,11 @@
 const express = require('express');
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+const logger = require('morgan');
+const path = require('path');
+const socket = require('socket.io');
+const { joinGame, storytellerChoose, playerChoose, playerVote, storytellerConfirm, startGame, reconnectGame } = require('./services/rooms');
+const rooms = require('./routes/rooms');
+const Game = require('./models/Game');
+require('dotenv/config');
