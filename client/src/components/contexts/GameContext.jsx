@@ -3,7 +3,7 @@ import Card from './Card';
 import User from './User';
 import Waiting from './Waiting'
 import './Game.css';
-import { GameContext } from '../contexts/GameContext';
+import { GameContext } from './GameContext';
 import { Link, Redirect, useLocation } from 'react-router-dom';
 import GameFooter from './GameFooter';
 import LoadingSpinner from './LoadingSpinner';
