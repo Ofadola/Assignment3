@@ -1,0 +1,40 @@
+.logo {
+  font-family: 'Dilana';
+  font-size: 120px;
+  text-align: center;
+  color: rgb(36, 29, 18);
+  text-shadow: rgb(255, 212, 72) 2px 2px 2px, rgb(255, 212, 72) -2px -2px 2px;
+}
+
+.logo-small {
+  font-size: 60px !important;
+}
+
+.green-btn {
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  background-color: rgb(20, 168, 99);
+}
+
+.green-btn:hover {
+  cursor: pointer;
+}
+
+.dixit-input {
+  border: 1px solid grey;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px;
+}
