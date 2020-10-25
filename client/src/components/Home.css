@@ -1,0 +1,20 @@
+.home-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.home-buttons a:hover {
+    cursor: pointer;
+}
+
+.play-btn {
+    background-color: rgb(20, 168, 99);
+}
+
+.host-btn {
+    background-color: rgb(0, 140, 255);
+    margin-top: 50px;
+}
